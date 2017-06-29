@@ -1,9 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
 int a;
-clrscr();
 scanf("%d",&a);
 if(a>0)
 {
@@ -17,5 +15,5 @@ else
 {
 printf("Number is zero");
 }
-getch();
+  return 0;
 }
